@@ -18,6 +18,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Removed
 - none yet
 
+## [v0.3.21] - 2017-11-02
+### Addes
+- Add .focus() to allow keyboard navigation inside the iframe
+
 ## [v0.3.20] - XXXX-XX-XX
 ### Fixed
 - Check for parentNode existing before removing intent iframe (avoid error in console)
@@ -248,7 +252,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Refactoring on offline to return Promise
 
 
-[Unreleased]: https://github.com/cozy/cozy-client-js/compare/v0.3.19...HEAD
+[Unreleased]: https://github.com/cozy/cozy-client-js/compare/v0.3.20...HEAD
+[v0.3.20]: https://github.com/cozy/cozy-client-js/compare/v0.3.19...v0.3.20
 [v0.3.19]: https://github.com/cozy/cozy-client-js/compare/v0.3.18...v0.3.19
 [v0.3.18]: https://github.com/cozy/cozy-client-js/compare/v0.3.17...v0.3.18
 [v0.3.17]: https://github.com/cozy/cozy-client-js/compare/v0.3.16...v0.3.17
